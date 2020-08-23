@@ -1,0 +1,13 @@
+html, body {
+    background-color: #64B5F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.progress-ring__circle {
+    transform-origin: center;
+    transform: rotate(-90deg);
+    transition: stroke-Dashoffset 0.3s;
+}
